@@ -47,4 +47,12 @@ export const games = [
     image: 'https://i.pinimg.com/736x/12/e0/c9/12e0c9c80a81c3423132cb532283b2e9.jpg',
     description: 'Carreras de mundo abierto en los paisajes de México.',
   },
+  {
+    id: 7,
+    name: 'Candy Crush ',
+    genre: 'Roompecabezas',
+    platform: 'PC',
+    image: '',
+    description: 'es un popular videojuego de rompecabezas móvil lanzado por la empresa King en 2012.',
+  },
 ]
