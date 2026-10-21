@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 7rem 2rem;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.greeting {
+  font-size: 0.9rem;
+  color: #a78bfa;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  max-width: 40rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.button {
+  padding: 0.85rem 2rem;
+  background: #7c3aed;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.button:hover { background: #6d28d9; }
