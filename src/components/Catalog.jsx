@@ -1,8 +1,7 @@
 import GameCard from './Gamecard'
-import { games } from '../data/games'
 import styles from './Catalog.module.css'
 
-function Catalog() {
+function Catalog({ games, favorites, onToggle }) {
   return (
     <section id="catalogo" className={styles.catalog}>
       <div className={styles.container}>
@@ -13,7 +12,12 @@ function Catalog() {
 
         <div className={styles.grid}>
           {games.map((game) => (
-            <GameCard key={game.id} game={game} />
+            <GameCard
+              key={game.id}
+              game={game}
+              isFavorite={favorites.includes(game.id)}
+              onToggle={onToggle}
+            />
           ))}
         </div>
       </div>
